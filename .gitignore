@@ -1,0 +1,1 @@
+__pycache__/\n*.py[cod]\n.venv/\nvenv/\n.env\n.env.*\n!.env.example\n*.log\ndata/\nrecordings/\nsnapshots/\naudio/\nface_data/\nmodels/*.onnx\nmodels/*.bin\n*.db\n*.sqlite\n*.sqlite3\n.vscode/\n.idea/\n.DS_Store\n
