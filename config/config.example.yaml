@@ -1,0 +1,33 @@
+camera:
+  stream_url: "http://ESP32_CAMERA_IP/stream"
+  reconnect_seconds: 5
+  process_width: 640
+  process_height: 480
+  target_fps: 5
+
+face:
+  enabled: true
+  enrolled_directory: "./data/faces"
+  recognition_threshold: 0.45
+  max_enrolled_people: 50
+  samples_per_person: 5
+
+events:
+  snapshot_on_unknown: true
+  record_seconds: 15
+  cooldown_seconds: 20
+  retention_days: 30
+
+audio:
+  enabled: true
+  input_device: "default"
+  output_device: "default"
+  prompt_text: "Hello. I do not recognize you. Please tell me who you are."
+  response_seconds: 8
+
+server:
+  host: "127.0.0.1"
+  port: 8080
+
+storage:
+  root: "./data"
