@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Camera: install dependencies","type":"shell","command":"python3 -m pip install -r orange-pi/requirements.txt","problemMatcher":[]},{"label":"Camera: run","type":"shell","command":"python3 orange-pi/run.py","problemMatcher":[]},{"label":"Camera: tests","type":"shell","command":"python3 -m pytest -q","problemMatcher":[]}]}
