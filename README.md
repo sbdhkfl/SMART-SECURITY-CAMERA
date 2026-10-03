@@ -60,3 +60,24 @@ The repository foundation and main architecture are set up. Next we build the ac
 
 ## Run in VS Code
 Open this repository in VS Code on the Orange Pi (or use VS Code Remote SSH). Run python run.py. Chrome opens automatically to the local security-camera dashboard. The ESP32-S3-CAM firmware and hardware setup remain separate so the browser interface does not complicate the hardware.
+
+
+## Browser mode
+
+The security camera has a Chrome dashboard so you can use the project through a normal web interface instead of relying on terminal commands.
+
+### Start it
+
+On the Orange Pi, open this repository in VS Code and run:
+
+`python run.py`
+
+Chrome opens the local security-camera dashboard automatically.
+
+The browser is the user interface. The ESP32-S3-CAM firmware, Orange Pi services, camera hardware, microphone, local AI, storage, and secure remote-access setup remain separate underneath it.
+
+### Local AI and privacy
+
+The main security functions are designed to use local/open-source software rather than a paid cloud AI service. Keep recordings and face data on the local system as described in the security and privacy documentation.
+
+Generated or downloaded software should be reviewed before installation. Never put passwords, tokens, private keys, or other secrets into GitHub.
