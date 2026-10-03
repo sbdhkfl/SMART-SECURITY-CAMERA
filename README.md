@@ -81,3 +81,12 @@ The browser is the user interface. The ESP32-S3-CAM firmware, Orange Pi services
 The main security functions are designed to use local/open-source software rather than a paid cloud AI service. Keep recordings and face data on the local system as described in the security and privacy documentation.
 
 Generated or downloaded software should be reviewed before installation. Never put passwords, tokens, private keys, or other secrets into GitHub.
+
+## Simple one-start workflow
+
+On the Orange Pi, use the included start.sh:
+
+./start.sh
+
+It installs the Python requirements when needed and starts the local browser dashboard. The physical camera hardware and ESP32-S3-CAM are still required for the actual camera system.
+
