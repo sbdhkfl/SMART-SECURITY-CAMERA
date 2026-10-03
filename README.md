@@ -59,4 +59,4 @@ The docs folder is where the full build guides, hardware list, wiring, setup, se
 The repository foundation and main architecture are set up. Next we build the actual camera firmware, local AI, face enrollment, unknown-person workflow, audio workflow, dashboard, remote access, and testing step by step.
 
 ## Run in VS Code
-For the Orange Pi software, open this repository in VS Code on the Orange Pi (or use VS Code Remote SSH). Run **Camera: install dependencies**, then press **F5** and choose **Run Security Camera**. The ESP32-S3 camera firmware still needs the exact camera-board model/pin mapping before it can be flashed safely.
+Open this repository in VS Code on the Orange Pi (or use VS Code Remote SSH). Run python run.py. Chrome opens automatically to the local security-camera dashboard. The ESP32-S3-CAM firmware and hardware setup remain separate so the browser interface does not complicate the hardware.
